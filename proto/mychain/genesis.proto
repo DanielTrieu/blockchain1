@@ -1,0 +1,11 @@
+syntax = "proto3";
+package daniel.mychain.mychain;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/daniel/mychain/x/mychain/types";
+
+// GenesisState defines the mychain module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
